@@ -1,0 +1,6 @@
+#multViewPort{
+    height: 365px;
+    width: 175px;
+    overflow-y: auto;
+    border: 2px solid black;
+}
