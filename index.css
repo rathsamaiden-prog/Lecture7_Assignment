@@ -1,0 +1,18 @@
+#multViewPort{
+    height: 365px;
+    min-width: 175px;
+    width: fit-content;
+    overflow-y: auto;
+    border: 2px solid black;
+}
+#btnContainer{
+    display: flex;
+    width: 700px;
+    height: fit-content;
+    justify-content: space-around;
+    margin: 5%;
+}
+.colorBtn{
+    height: 30px;
+    width: 30px;
+}
