@@ -1,6 +1,7 @@
 #multViewPort{
     height: 365px;
-    width: 175px;
+    min-width: 175px;
+    width: fit-content;
     overflow-y: auto;
     border: 2px solid black;
 }

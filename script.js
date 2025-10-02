@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 function btnColorChange(thing){
-    console.log(thing);
     if(thing.id === `redChange`){
         let btns = document.querySelectorAll(`.colorBtn`);
         btns.forEach(function(button){
@@ -54,7 +53,7 @@ function btnColorChange(thing){
     }
     if(thing.id === `reset`){
         let btns = document.querySelectorAll(`.colorBtn`);
-        let index = 0;
+        let index = -1;
         btns.forEach(function(button){
             button.style.backgroundColor = colorArr[++index];
         });
